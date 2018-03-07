@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Views</string>
+    <string name="estou_aprendendo_android">Estou aprendendo Android</string>
+    <string name="f_cil">fácil</string>
+    <string name="m_dio">médio</string>
+    <string name="dif_cil">difícil</string>
+    <string name="salvar">salvar</string>
+</resources>
