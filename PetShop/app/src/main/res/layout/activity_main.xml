@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escolha_cochorro"
+        android:textColor="#df1515"
+        android:padding="10dp"
+        android:textSize="20dp"
+        />
+
+    <RadioGroup
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgdCachorro">
+        <RadioButton
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/border_collie"
+            android:id="@+id/rgBorder"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pit_bull"
+            android:id="@+id/rgPitBull"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pastor_alem"
+            android:id="@+id/rgPastor"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pastor_canadense"
+            android:id="@+id/rgPCanadense"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/femea"
+        android:id="@+id/chkFemea"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adestrado"
+        android:id="@+id/chkAdestrado"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/todas_vacinas"
+        android:id="@+id/chkVacina"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Calcular"
+        android:onClick="Calcular"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R$ 00,00"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtResult"/>
+</LinearLayout>
