@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_padding_padrao">16dp</dimen>
+    <dimen name="width_heigth_img">92dp</dimen>
+    <dimen name="text_size_nome">24sp</dimen>
+    <dimen name="width_linear_300">300dp</dimen>
+</resources>
