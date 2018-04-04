@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="jo_o_da_silva">João da Silva</string>
+    <string name="email">email</string>
+    <string name="voltar">Voltar</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="usuario">usuario</string>
+    <string name="password">password</string>
+    <string name="salvar">salvar</string>
+    <string name="absolut_layout">Absolut Layout</string>
+    <string name="table_layout">Table Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="bot_o_qualquer">Botão Qualquer</string>
+</resources>
