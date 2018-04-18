@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pickers and Dialogs</string>
+    <string name="salvar">salvar</string>
+    <string name="abir_alertdialog">abir alertdialog</string>
+    <string name="eu_sou_um_alert">eu sou um alert</string>
+    <string name="conteudo_alert">conteudo alert</string>
+    <string name="ok">Ok</string>
+    <string name="cliquei">cliquei</string>
+    <string name="abrir_progressdialog">Abrir progressdialog</string>
+    <string name="eu_sou_um_progress">eu sou um progress</string>
+    <string name="aguarde">aguarde</string>
+    <string name="abrir_datepickerdialog">Abrir DatePickerDialog</string>
+</resources>
