@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#febd27"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="126dp"
+            android:text="@string/card_pio"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000000"/>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        android:background="#fcf9f9"
+        android:onClick="mostrarBata">
+
+        <ImageView android:src="@drawable/batata" />
+
+        <TextView
+            android:text="@string/bata_frita"
+            android:textSize="25sp"
+            android:paddingLeft="50dp"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_marginLeft="16dp"
+            android:id="@+id/chkBatata"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c7c5c5"
+        android:onClick="mostrarSorvete">
+
+        <ImageView android:src="@drawable/sorvete" />
+
+        <TextView
+            android:text="@string/sorvete"
+            android:textSize="25sp"
+            android:paddingLeft="50dp"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_marginLeft="16dp"
+            android:id="@+id/chkSorvete"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        android:background="#fcf9f9"
+        android:onClick="mostrarBolo">
+
+        <ImageView android:src="@drawable/bolo" />
+
+        <TextView
+            android:text="@string/bolo"
+            android:textSize="25sp"
+            android:paddingLeft="50dp"
+            android:textColor="#000000" />
+
+        <CheckBox
+            android:layout_marginLeft="16dp"
+            android:id="@+id/chkBolo"/>
+    </TableRow>
+
+    <Button
+        android:text="@string/total"
+        android:onClick="mostrarTotal"/>
+</TableLayout>
